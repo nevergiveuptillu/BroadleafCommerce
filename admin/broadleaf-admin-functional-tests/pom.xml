@@ -34,7 +34,7 @@
         <plugins>
             <!-- Include Spock specifications, exclude the browser tests
                 by default -->
-           <plugin>
+           <!-- <plugin>
                 <groupId>org.broadleafcommerce</groupId>
                 <artifactId>admin</artifactId>
             <version>${broadleaf-admin-functional-tests:6.2.7-SNAPSHOT}</version>
@@ -49,7 +49,7 @@
               </execution>
             </executions>
             </plugin>
-            <!-- <plugin> -->
+            <plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
