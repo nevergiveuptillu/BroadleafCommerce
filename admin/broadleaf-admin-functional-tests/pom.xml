@@ -34,6 +34,22 @@
         <plugins>
             <!-- Include Spock specifications, exclude the browser tests
                 by default -->
+           <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+            <version>${broadleafcommerce.version}</version>
+            <configuration>
+              <mainClass>com.broadleafcommerce.Application</mainClass>
+            </configuration>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>repackage</goal>
+                </goals>
+              </execution>
+            </executions>
+            </plugin>
+            <!-- <plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
