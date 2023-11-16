@@ -34,10 +34,10 @@
         <plugins>
             <!-- Include Spock specifications, exclude the browser tests
                 by default -->
-           <!-- <plugin>
+           <plugin>
                 <groupId>org.broadleafcommerce</groupId>
                 <artifactId>admin</artifactId>
-            <version>${6.2.7}</version>
+            <version>6.2.7-SNAPSHOT</version>
             <configuration>
               <mainClass>com.broadleafcommerce.Application</mainClass>
             </configuration>
@@ -48,7 +48,7 @@
                 </goals>
               </execution>
             </executions>
-            </plugin> -->
+            </plugin>
             <!-- <plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
