@@ -37,7 +37,7 @@
            <plugin>
                 <groupId>org.broadleafcommerce</groupId>
                 <artifactId>admin</artifactId>
-            <version>${org.broadleafcommerce:broadleaf-admin-functional-tests:6.2.7-SNAPSHOT}</version>
+            <version>${*-functional-tests:6.2.7-SNAPSHOT}</version>
             <configuration>
               <mainClass>com.broadleafcommerce.Application</mainClass>
             </configuration>
